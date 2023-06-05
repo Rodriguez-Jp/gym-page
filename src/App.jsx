@@ -77,6 +77,126 @@ function App() {
             </div>
           </div>
         </section>
+
+        <section className="bg-[url('public/media/schedule-bg.jpeg')] min-w-full bg-cover bg-no-repeat mt-20 ">
+          <div className="py-28">
+            <SectionTitle
+              title={
+                <>
+                  <span className="text-white">Classes</span>{" "}
+                  <span className="text-red-500">Schedule</span>
+                </>
+              }
+            />
+            <div className="mx-auto w-full mt-14">
+              <ul className="flex justify-center text-white font-normal">
+                <li>
+                  <span className="text-red-500">
+                    <a href="#" className="mx-4">
+                      Monday
+                    </a>
+                  </span>
+                  <span> / </span>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="hover:text-red-500 transition-colors duration-300 cursor-pointer mx-4"
+                  >
+                    Tuesday
+                  </a>
+                  <span> / </span>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="hover:text-red-500 transition-colors duration-300 cursor-pointer mx-4"
+                  >
+                    Wednesday
+                  </a>
+                  <span> / </span>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="hover:text-red-500 transition-colors duration-300 cursor-pointer mx-4"
+                  >
+                    Thursday
+                  </a>
+                  <span> / </span>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="hover:text-red-500 transition-colors duration-300 cursor-pointer mx-4"
+                  >
+                    Friday
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="w-full flex justify-center mt-10">
+              <tbody>
+                <table className="border border-solid border-white text-white">
+                  <tr className="border border-solid border-white w-[20%] h-[20%]">
+                    <td className="border border-solid border-white p-10">
+                      Fitness class
+                    </td>
+                    <td className="border border-solid border-white p-10">
+                      10:00AM - 11:30AM
+                    </td>
+                    <td className="border border-solid border-white p-10"></td>
+                    <td className="border border-solid border-white p-10">
+                      William G. Stewart
+                    </td>
+                  </tr>
+                  <tr className="border border-solid border-white w-[20%] h-[20%]">
+                    <td className="border border-solid border-white p-10">
+                      Muscle Training
+                    </td>
+                    <td className="border border-solid border-white p-10"></td>
+                    <td className="border border-solid border-white p-10"></td>
+                    <td className="border border-solid border-white p-10">
+                      Paul D. Newman
+                    </td>
+                  </tr>
+                  <tr className="border border-solid border-white w-[20%] h-[20%]">
+                    <td className="border border-solid border-white p-10">
+                      Body building
+                    </td>
+                    <td className="border border-solid border-white p-10"></td>
+                    <td className="border border-solid border-white p-10">
+                      2:30PM - 3:30PM
+                    </td>
+                    <td className="border border-solid border-white p-10">
+                      Boyd C. Harris
+                    </td>
+                  </tr>
+                  <tr className="border border-solid border-white w-[20%] h-[20%]">
+                    <td className="border border-solid border-white p-10 ">
+                      Yoga Training Class
+                    </td>
+                    <td className="border border-solid border-white p-10"></td>
+                    <td className="border border-solid border-white p-10"></td>
+                    <td className="border border-solid border-white p-10">
+                      Hector T. Daigle
+                    </td>
+                  </tr>
+                  <tr className="border border-solid border-white w-[20%] h-[20%]">
+                    <td className="border border-solid border-white text-center">
+                      Advanced Training
+                    </td>
+                    <td className="border border-solid border-white p-10"></td>
+                    <td className="border border-solid border-white p-10"></td>
+                    <td className="border border-solid border-white p-10">
+                      Bret D. Bowers
+                    </td>
+                  </tr>
+                </table>
+              </tbody>
+            </div>
+          </div>
+        </section>
       </main>
     </>
   );
