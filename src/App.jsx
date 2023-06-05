@@ -142,8 +142,8 @@ function App() {
               </ul>
             </div>
             <div className="w-full flex justify-center mt-10">
-              <tbody>
-                <table className="border border-solid border-white text-white">
+              <table>
+                <tbody className="border border-solid border-white text-white">
                   <tr className="border border-solid border-white w-[20%] h-[20%]">
                     <td className="border border-solid border-white p-10">
                       Fitness class
@@ -198,8 +198,8 @@ function App() {
                       Bret D. Bowers
                     </td>
                   </tr>
-                </table>
-              </tbody>
+                </tbody>
+              </table>
             </div>
           </div>
         </section>
@@ -247,6 +247,7 @@ function App() {
                     id="name"
                     className="border p-3 font-normal w-[48%] mb-10"
                     placeholder="Name"
+                    autoComplete="given-name"
                   />
                   <input
                     type="email"
@@ -254,6 +255,7 @@ function App() {
                     id="email"
                     className="border p-3 font-normal w-[48%] mb-10"
                     placeholder="Email"
+                    autoComplete="email"
                   />
                 </div>
                 <input
@@ -264,8 +266,8 @@ function App() {
                   placeholder="Subject"
                 />
                 <textarea
-                  name=""
-                  id=""
+                  name="message"
+                  id="message"
                   cols="30"
                   rows="5"
                   className="border p-3 font-normal mb-10"
