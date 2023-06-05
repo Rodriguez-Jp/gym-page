@@ -13,9 +13,9 @@ const TrainerCard = ({ typeOfWork, name, img }) => {
           </p>
           <div className="mt-6 text-2xl flex justify-between w-1/2">
             <i className="fa-brands fa-facebook "></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-behance"></i>
+            <i className="fa-brands fa-twitter"></i>
+            <i className="fa-brands fa-linkedin"></i>
+            <i className="fa-brands fa-behance"></i>
           </div>
         </div>
       </div>

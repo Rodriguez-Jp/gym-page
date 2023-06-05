@@ -5,6 +5,7 @@ import Program from "./components/Program";
 import SectionTitle from "./components/SectionTitle";
 import ClassCard from "./components/ClassCard";
 import TrainerCard from "./components/TrainerCard";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -230,7 +231,58 @@ function App() {
             />
           </div>
         </section>
+
+        {/* Form section */}
+        <section className="w-full mt-20">
+          <div className="flex bg-[url(public/media/contact-bg.jpeg)] bg-cover bg-no-repeat">
+            <div className="w-1/2">
+              <img src="public/media/maps.png" alt="maps" />
+            </div>
+            <div className="w-1/2 p-10">
+              <form className="flex flex-col bg-white p-10">
+                <div className="flex justify-between">
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    className="border p-3 font-normal w-[48%] mb-10"
+                    placeholder="Name"
+                  />
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    className="border p-3 font-normal w-[48%] mb-10"
+                    placeholder="Email"
+                  />
+                </div>
+                <input
+                  type="text"
+                  name="subject"
+                  id="subject"
+                  className="border p-3 font-normal mb-10"
+                  placeholder="Subject"
+                />
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="5"
+                  className="border p-3 font-normal mb-10"
+                  placeholder="Message"
+                ></textarea>
+                <input
+                  type="submit"
+                  value="Send Message"
+                  className="bg-red-500 uppercase font-bold text-center p-3 text-white cursor-pointer hover:opacity-80 transition-opacity duration-300"
+                />
+              </form>
+            </div>
+          </div>
+        </section>
       </main>
+      {/* Footer */}
+      <Footer />
     </>
   );
 }
