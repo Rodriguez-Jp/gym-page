@@ -4,6 +4,7 @@ import FrontPage from "./components/FrontPage";
 import Program from "./components/Program";
 import SectionTitle from "./components/SectionTitle";
 import ClassCard from "./components/ClassCard";
+import TrainerCard from "./components/TrainerCard";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <main>
         <FrontPage />
         <Program />
+        {/* Become a member section */}
         <section className="bg-[url('/public/media/cta-bg.jpeg')] min-w-full bg-cover bg-no-repeat h-[379px]">
           <div className="mx-auto text-center  text-white max-w-4xl h-full flex flex-col justify-center items-center">
             <h1 className="text-3xl mt-10 mb-6 font-bold uppercase">
@@ -28,7 +30,9 @@ function App() {
             </button>
           </div>
         </section>
-        <section className="max-w-[80%] mx-auto">
+
+        {/* Classes section */}
+        <section className="max-w-[80%] mx-auto mt-20">
           <SectionTitle
             title={
               <>
@@ -78,6 +82,7 @@ function App() {
           </div>
         </section>
 
+        {/* Classes schedule section */}
         <section className="bg-[url('public/media/schedule-bg.jpeg')] min-w-full bg-cover bg-no-repeat mt-20 ">
           <div className="py-28">
             <SectionTitle
@@ -195,6 +200,34 @@ function App() {
                 </table>
               </tbody>
             </div>
+          </div>
+        </section>
+
+        {/* Experts section */}
+        <section className="max-w-[75%] mx-auto mt-20">
+          <SectionTitle
+            title={
+              <>
+                Expert <span className="text-red-500">Trainers</span>
+              </>
+            }
+          />
+          <div className="flex justify-between mt-10">
+            <TrainerCard
+              typeOfWork={"Strength Trainer"}
+              name={"Bret D. Bowers"}
+              img={"first-trainer.jpeg"}
+            />
+            <TrainerCard
+              typeOfWork={"Muscle Trainer"}
+              name={"Hector T. Daigle"}
+              img={"second-trainer.jpeg"}
+            />
+            <TrainerCard
+              typeOfWork={"Power Trainer"}
+              name={"Paul D. Newman"}
+              img={"third-trainer.jpeg"}
+            />
           </div>
         </section>
       </main>
