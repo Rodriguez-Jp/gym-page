@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <>
-      <div className="flex justify-around w-full h-20 absolute top-0 z-50 bg-slate-400/50">
+      <div className="flex justify-around w-full h-20 absolute top-0 z-50 bg-slate-400/40">
         <div className="p-5">
           <a href="#">
             <h1 className="uppercase text-4xl text-white cursor-pointer">
