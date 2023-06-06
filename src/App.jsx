@@ -15,7 +15,7 @@ function App() {
         <FrontPage />
         <Program />
         {/* Become a member section */}
-        <section className="bg-[url('/public/media/cta-bg.jpeg')] min-w-full bg-cover bg-no-repeat h-[379px]">
+        <section className="bg-[url('public/media/cta-bg.jpeg')] min-w-full bg-cover bg-no-repeat h-[379px]">
           <div className="mx-auto text-center  text-white max-w-4xl h-full flex flex-col justify-center items-center">
             <h1 className="text-3xl mt-10 mb-6 font-bold uppercase">
               don't <span className="text-red-500">think</span>, begin{" "}
@@ -84,7 +84,7 @@ function App() {
         </section>
 
         {/* Classes schedule section */}
-        <section className="bg-[url('public/media/schedule-bg.jpeg')] min-w-full bg-cover bg-no-repeat mt-20 ">
+        <section className="bg-[url('../public/media/schedule-bg.jpeg')] min-w-full bg-cover bg-no-repeat mt-20 ">
           <div className="py-28">
             <SectionTitle
               title={
