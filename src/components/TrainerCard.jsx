@@ -3,7 +3,7 @@ const TrainerCard = ({ typeOfWork, name, img }) => {
     <>
       <div className="w-2/5 shadow-lg mx-10">
         <div className="p-10 flex flex-col justify-center">
-          <img src={`../public/media/${img}`} alt={name} />
+          <img src={`/media/${img}`} alt={name} />
           <p className="mt-5 mb-2 text-red-500 font-normal">{typeOfWork}</p>
           <h1 className="text-2xl font-normal">{name}</h1>
           <p className="max-w-full font-light text-gray-500">

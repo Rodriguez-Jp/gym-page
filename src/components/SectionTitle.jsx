@@ -6,7 +6,7 @@ const SectionTitle = ({ title }) => {
       <div className="uppercase mx-auto text-center max-w-[90%]">
         <h1 className="text-3xl font-bold">{title}</h1>
         <img
-          src="/public/media/line-dec.png"
+          src="/media/line-dec.png"
           alt="line-decoration"
           className="mx-auto mt-5"
         />

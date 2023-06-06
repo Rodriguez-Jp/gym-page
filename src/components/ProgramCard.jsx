@@ -2,7 +2,7 @@ const ProgramCard = ({ title }) => {
   return (
     <>
       <div className="w-1/2 flex mb-16">
-        <img src="/public/media/features-first-icon.png" alt="program-img" />
+        <img src="/media/features-first-icon.png" alt="program-img" />
         <div className="ml-5">
           <h1 className="text-2xl">{title}</h1>
           <p className="text-gray-500 font-light">

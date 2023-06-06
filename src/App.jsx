@@ -15,7 +15,7 @@ function App() {
         <FrontPage />
         <Program />
         {/* Become a member section */}
-        <section className="bg-[url('public/media/cta-bg.jpeg')] min-w-full bg-cover bg-no-repeat h-[379px]">
+        <section className="bg-[url('/media/cta-bg.jpeg')] min-w-full bg-cover bg-no-repeat h-[379px]">
           <div className="mx-auto text-center  text-white max-w-4xl h-full flex flex-col justify-center items-center">
             <h1 className="text-3xl mt-10 mb-6 font-bold uppercase">
               don't <span className="text-red-500">think</span>, begin{" "}
@@ -60,7 +60,7 @@ function App() {
             <div className="ml-14">
               <div>
                 <img
-                  src="public/Media/training-image-01.jpeg"
+                  src="/Media/training-image-01.jpeg"
                   alt="training-img"
                   className="object-cover w-full rounded-lg"
                 />
@@ -84,7 +84,7 @@ function App() {
         </section>
 
         {/* Classes schedule section */}
-        <section className="bg-[url('../public/media/schedule-bg.jpeg')] min-w-full bg-cover bg-no-repeat mt-20 ">
+        <section className="bg-[url('/media/schedule-bg.jpeg')] min-w-full bg-cover bg-no-repeat mt-20 ">
           <div className="py-28">
             <SectionTitle
               title={
@@ -234,9 +234,9 @@ function App() {
 
         {/* Form section */}
         <section className="w-full mt-20">
-          <div className="flex bg-[url(public/media/contact-bg.jpeg)] bg-cover bg-no-repeat">
+          <div className="flex bg-[url(/media/contact-bg.jpeg)] bg-cover bg-no-repeat">
             <div className="w-1/2">
-              <img src="public/media/maps.png" alt="maps" />
+              <img src="/media/maps.png" alt="maps" />
             </div>
             <div className="w-1/2 p-10">
               <form className="flex flex-col bg-white p-10">

@@ -3,7 +3,7 @@ const FrontPage = () => {
     <>
       <section className="relative uppercase">
         <video
-          src="../public/media/gym-video.mp4"
+          src="/media/gym-video.mp4"
           autoPlay
           muted
           loop
