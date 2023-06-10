@@ -6,11 +6,11 @@ This is a basic clone of a GYM Page made with React, built from scratch with Tai
 # Images
 These are some images of the project:
 
-[!Screenshot](public/docs/gymSS.png)
+<img src="public/docs/gymSS.png" width="800px">
 
-[!Screenshot](public/docs/gymSS2.png)
+<img src="public/docs/gymSS2.png" width="800px">
 
-[!Screenshot](public/docs/gymSS3.png)
+<img src="public/docs/gymSS3.png" width="800px">
 
 # Disclaimer
 This clone was made by me, inspired in a code challenge that is a web page full of challenges, link is: https://altcampus.com/posts/10-project-ideas-for-learning-react-js
